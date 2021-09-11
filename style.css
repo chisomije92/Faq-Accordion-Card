@@ -185,7 +185,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     max-width: 600px;
     min-height: 100vh;
   flex-direction: row;
-   background-image: url('/images/bg-pattern-mobile.svg');
+   background-image: url('images/bg-pattern-mobile.svg');
   background-position: left 110px top -4px;
   background-repeat:no-repeat;
   background-size: 250px;
