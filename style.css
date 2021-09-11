@@ -1,0 +1,235 @@
+@import url('https://fonts.google.com/specimen/Kumbh+Sans');
+
+html {
+box-sizing: border-box;
+height: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background: linear-gradient(0deg, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+background-repeat: no-repeat;
+}
+
+body {
+margin: 0;
+font-family: Kumbh Sans, sans-serif;
+display: flex;
+justify-content: center;
+height: 100%;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  max-width: 98%;
+  min-height: 560px;
+  background-color: #fff;
+  background-image:url("images/bg-pattern-desktop.svg");
+  background-position: left -450px top -280px;
+  background-repeat:no-repeat;
+  background-size: 850px 890px;
+  background-attachment: scroll;
+  margin: 5%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.img-1{
+  position: absolute;
+  z-index: 9;
+  transform: translate(-103px, 194px);
+  -webkit-transform: translate(-103px, 194px);
+  -moz-transform: translate(-103px, 194px);
+  -ms-transform: translate(-103px, 194px);
+  -o-transform: translate(-103px, 194px);
+  
+}
+
+
+.img-2-cover{
+position: relative;
+height: 100%;
+overflow: hidden;
+}
+
+.img-2 {
+  transform: translate(-54px, 50px);
+  -webkit-transform: translate(-84px, 50px);
+  -moz-transform: translate(-54px, 50px);
+  -ms-transform: translate(-54px, 50px);
+  -o-transform: translate(-54px, 50px);
+}
+
+.img-2-mobile,
+.img-3{
+  display: none;
+}
+
+
+.question-container{
+ 
+
+min-width: 300px;
+min-height: 50%;
+overflow-y: auto;
+margin-bottom: 50px;
+}
+
+.question-container{
+font-size: 22px;
+}
+
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.question{
+ 
+ 
+  position: relative;
+  margin-bottom: 10px;
+   margin-right: 30px;
+  word-wrap: break-word;
+}
+
+
+
+.question-group{
+    position: relative;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 0.5s ease-in;
+  -webkit-transition: transform 0.5s ease-in;
+  -moz-transition: transform 0.5s ease-in;
+  -ms-transition: transform 0.5s ease-in;
+  -o-transition: transform 0.5s ease-in;
+}
+
+
+.question-group>h4:hover{
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+
+.question  h4{
+position: relative;  
+display: inline-block;
+font-weight: 500;
+font-size: 16px;
+color: hsl(237, 12%, 33%);
+padding-right: 40px;
+}
+
+.question h4:hover{
+  font-weight: bolder;
+}
+
+.question > p{
+  display: none;
+}
+
+.question .show-answer{
+  display: block;
+  max-width: 400px;
+  font-size: 14px;
+  text-align: justify;
+  word-break: break-all;
+  
+  color: hsl(240, 6%, 50%);
+margin-top: -12px;
+}
+
+.arrow-div{
+  transform: translate(0, 13px);
+  -webkit-transform: translate(0, 13px);
+  -moz-transform: translate(0, 13px);
+  -ms-transform: translate(0, 13px);
+  -o-transform: translate(0, 13px);
+}
+
+
+
+.divider{
+width: 100%;
+background: rgba(0, 0, 0, 0.1);
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width : 900px) {
+
+.fixed-cover{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: linear-gradient(0deg, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+  background-repeat: no-repeat;
+}
+  .container{
+    position: relative;
+    max-width: 600px;
+    min-height: 100vh;
+  flex-direction: row;
+   background-image: url('/images/bg-pattern-mobile.svg');
+  background-position: left 110px top -4px;
+  background-repeat:no-repeat;
+  background-size: 250px;
+  background-attachment: scroll;
+ margin-top: 120px;
+ 
+  }
+
+  .img-1{
+  display: none;
+  }
+
+  .img-2{
+  display: none;
+  }
+
+  .img-2-mobile{
+    position:absolute;
+    display: block;
+    width: 300px;
+    transform: translate(93px, -115px);
+    -webkit-transform: translate(93px, -115px);
+    -moz-transform: translate(93px, -115px);
+    -ms-transform: translate(93px, -115px);
+    -o-transform: translate(93px, -115px);
+}
+
+  .question-container {
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+  }
+
+  .question-container > h2{
+font-size: 32px;
+text-align: center;
+  }
+
+  .question{
+text-align: center;
+align-items: center;
+margin-top: 10px; 
+}
+}
+
+
+
