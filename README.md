@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/chisomije92/faq-accordion-card)
-- Live Site URL: [Add live site URL here](https://chisomije92.github.io/faq-accordion-card/)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-css-javascript-xofESoYJ2](https://www.frontendmentor.io/solutions/html-css-javascript-xofESoYJ2)
+- Live Site URL: [https://chisomije92.github.io/faq-accordion-card/](https://chisomije92.github.io/faq-accordion-card/)
 
 ## My process
 
